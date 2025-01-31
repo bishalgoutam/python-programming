@@ -1,0 +1,16 @@
+# Developed by: Bishal Goutam
+# Date: 1/31/2025
+# Ignore virtual environment
+venv/
+.venv/
+
+# Ignore PyCharm settings
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
