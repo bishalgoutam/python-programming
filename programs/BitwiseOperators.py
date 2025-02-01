@@ -2,7 +2,7 @@
 # Date: 1/31/2025
 
 # Program starts here
-print("Bitwise Operators:")
+print("Bitwise Operations on Integers")
 print("5 & 3 (AND):", 5 & 3)  # 0101 & 0011 = 0001 (1)
 print("5 | 3 (OR):", 5 | 3)  # 0101 | 0011 = 0111 (7)
 print("5 ^ 3 (XOR):", 5 ^ 3)  # 0101 ^ 0011 = 0110 (6)
