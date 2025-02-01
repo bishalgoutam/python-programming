@@ -10,6 +10,7 @@
 
 # Integer to other data types
 print("Typecasting to Integer")
+print("\n")
 
 
 # Program ends here
