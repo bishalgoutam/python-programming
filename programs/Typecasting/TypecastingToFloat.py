@@ -8,7 +8,7 @@
 # float(): converts to float
 # bool(): converts to boolean
 
-# Integer to other data types
+# Convert Other data types to float
 print("Typecasting to Float")
 print("\n")
 print("Typecasting Integer to Float")
