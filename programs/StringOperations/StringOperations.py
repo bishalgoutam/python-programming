@@ -83,4 +83,27 @@ print(name[:3]) # 0 to 3-1
 print(name[:2]) # 0 to 2-1
 print(name[:1]) # 0 to 1-1
 print(name[:0]) # 0 to 0-1  # Nothing gets printed. No error
+
+
+print(name[-5:-1])
+print(name[-5:-2])
+print(name[-5:-3])
+print(name[-5:-4])
+
+# Case
+print(name)
+print(name.lower())  # All lower
+print(name.upper())  # All upper
+
+# String Manipulations strip, replace, count, find
+new_name = " Clear   Glass "
+print(new_name)
+print(new_name.strip())
+print(new_name.replace("clear","white"))  #case sensitive search. "clear" is not found
+print(new_name.replace("Clear","white"))
+print(new_name.count("e"))
+print(new_name.count("a"))
+print(new_name.count("ear"))
+print(new_name.find("r"))
+print(new_name.find("b"))   #not found
 # Program ends here
