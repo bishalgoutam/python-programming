@@ -1,0 +1,11 @@
+BOOK INFORMATION
+================
+Title: Learn Python Programming
+Author: Python Expert
+Year: 2025
+Pages: 350
+Topics Covered:
+  1. Variables
+  2. Functions
+  3. Classes
+  4. File Operations

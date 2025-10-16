@@ -1,0 +1,4 @@
+Welcome to Python File Writing!
+This is my first line.
+This is my second line.
+Python makes file writing easy!

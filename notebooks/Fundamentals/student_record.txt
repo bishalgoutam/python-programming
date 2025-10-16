@@ -1,0 +1,10 @@
+=== STUDENT RECORD ===
+Name: Alice Johnson
+Age: 20
+GPA: 3.85
+Honor Student: True
+Courses:
+  - Math
+  - Science
+  - English
+  - History

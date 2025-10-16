@@ -1,0 +1,22 @@
+QUIZ RESULTS
+============
+
+Question 1: What is Python?
+Answer: A programming language
+Result: Correct
+----------------------------------------
+Question 2: What is a variable?
+Answer: A storage location
+Result: Correct
+----------------------------------------
+Question 3: What is a function?
+Answer: A reusable code block
+Result: Correct
+----------------------------------------
+Question 4: What is a loop?
+Answer: A repetitive structure
+Result: Correct
+----------------------------------------
+
+FINAL SCORE: 4/4
+PERCENTAGE: 100.0%

@@ -1,0 +1,2 @@
+This is a test of safe file writing.
+It includes error handling!
