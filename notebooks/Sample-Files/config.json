@@ -1,0 +1,42 @@
+{
+  "test_configuration": {
+    "test_name": "API Performance Test",
+    "base_url": "https://api.example.com",
+    "endpoints": [
+      "/users",
+      "/products",
+      "/orders",
+      "/analytics"
+    ],
+    "load_pattern": {
+      "ramp_up_time": 300,
+      "steady_state_time": 1800,
+      "ramp_down_time": 300
+    },
+    "user_scenarios": [
+      {
+        "name": "browse_and_search",
+        "weight": 40,
+        "steps": ["login", "browse", "search", "logout"]
+      },
+      {
+        "name": "purchase_flow",
+        "weight": 35,
+        "steps": ["login", "browse", "add_to_cart", "checkout", "logout"]
+      },
+      {
+        "name": "admin_operations",
+        "weight": 25,
+        "steps": ["admin_login", "view_analytics", "manage_products", "logout"]
+      }
+    ]
+  },
+  "thresholds": {
+    "response_time": {
+      "average": 2.0,
+      "percentile_95": 5.0
+    },
+    "error_rate": 0.05,
+    "throughput": 100
+  }
+}
